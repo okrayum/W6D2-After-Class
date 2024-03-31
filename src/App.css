@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  background: linear-gradient(to bottom, #f0f0f0, #add8e6);
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    padding: 2rem 0;
+    font-size: 3rem;
+  }
+}
